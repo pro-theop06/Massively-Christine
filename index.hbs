@@ -16,7 +16,13 @@ into the {body} of the default.hbs template --}}
                     <p>{{excerpt words="44"}}</p>
                 </header>
                 {{#if feature_image}}
-                <a href="{{url}}" class="image main"><img loading="lazy" src="{{img_url feature_image}}" alt="{{#if feature_image_alt}}{{feature_image_alt}}{{else}}{{title}}{{/if}}" /></a>
+                <a href="{{url}}" class="image main">
+                    <img loading="lazy" src="{{img_url feature_image}}" alt="{{#if feature_image_alt}}{{feature_image_alt}}{{else}}{{title}}{{/if}}"
+                         srcset="{{img_url feature_image size="s"}} 300w,
+                        {{img_url feature_image size="m"}} 600w,
+                        {{img_url feature_image size="l"}} 1000w,
+                        {{img_url feature_image size="xl"}} 2000w"/>
+                </a>
                 {{/if}}
                 <ul class="actions special">
                     <li><a href="{{url}}" class="button large">Lire</a></li>
@@ -36,7 +42,13 @@ into the {body} of the default.hbs template --}}
                 <h2><a href="{{url}}">{{title}}</a></h2>
             </header>
             {{#if feature_image}}
-            <a href="{{url}}" class="image fit"><img loading="lazy" src="{{img_url feature_image}}" alt="{{title}}" /></a>
+            <a href="{{url}}" class="image fit">
+                <img loading="lazy" src="{{img_url feature_image}}" alt="{{title}}"
+                     srcset="{{img_url feature_image size="s"}} 300w,
+                    {{img_url feature_image size="m"}} 600w,
+                    {{img_url feature_image size="l"}} 1000w,
+                    {{img_url feature_image size="xl"}} 2000w"/>
+            </a>
             {{/if}}
             <p>{{excerpt words="33"}}</p>
             <ul class="actions special">
