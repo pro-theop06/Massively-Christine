@@ -242,7 +242,6 @@
 						if (($this.scrollTop() < 0 && diffY < 0)
 						|| (ts > (th - 2) && ts < (th + 2) && diffY > 0)) {
 
-							event.preventDefault();
 							event.stopPropagation();
 
 						}
