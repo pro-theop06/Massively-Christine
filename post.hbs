@@ -45,7 +45,7 @@ into the {body} of the default.hbs template --}}
                 {{#foreach authors}}
                 <a class="author-box" href="{{url}}">
                     {{#if profile_image}}
-                    <img class="author-profile-image" src="{{profile_image}}" alt="{{name}}" />
+                    <img class="author-profile-image" alt="{{name}}" src="{{img_url profile_image size="xs"}}" loading="lazy" />
                     {{/if}}
                     <section class="author-box-content">
                         <div class="author-box-label">{{{t "Author"}}}</div>
