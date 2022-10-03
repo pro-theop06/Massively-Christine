@@ -27,7 +27,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: _font(family);
+        font-family: _font(family), serif;
 		font-weight: _font(weight);
 		font-size: 1rem;
 		line-height: 2.375;
@@ -62,7 +62,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: _font(family-heading);
+        font-family: _font(family-heading), serif;
 		font-weight: _font(weight-heading);
 		line-height: 1.5;
 		letter-spacing: 0.075em;
@@ -127,7 +127,7 @@
 	code {
 		border-radius: _size(border-radius);
 		border: solid 2px;
-		font-family: _font(family-fixed);
+        font-family: _font(family-fixed), serif;
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.65rem;
@@ -135,7 +135,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: _font(family-fixed);
+        font-family: _font(family-fixed), serif;
 		font-size: 0.9rem;
 		margin: 0 0 _size(element-margin) 0;
 

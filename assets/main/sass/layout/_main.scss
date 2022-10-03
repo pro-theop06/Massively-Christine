@@ -160,10 +160,10 @@
     .has-serif-title #main > .posts header > h2,
     .has-serif-title #main > .post header.major > h1,
     .has-serif-title #main > .post header.major > h2 {
-        font-family: _font(family);
+        font-family: _font(family), serif;
     }
 
     .has-sans-body header.major > p,
     .has-sans-body .posts article p {
-        font-family: _font(family-heading);
+        font-family: _font(family-heading), serif;
     }
