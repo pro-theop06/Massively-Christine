@@ -22,7 +22,7 @@
 }
 
 .has-serif-title .content [id] {
-    font-family: _font(family);
+    font-family: _font(family), serif;
 }
 
 .has-sans-body .content > blockquote,
@@ -30,7 +30,7 @@
 .has-sans-body .content > ul,
 .has-sans-body .content > dl,
 .has-sans-body .content > p {
-    font-family: _font(family-heading);
+    font-family: _font(family-heading), serif;
 }
 
 // Pagination
@@ -150,7 +150,7 @@
 }
 
 .author-box-label {
-    font-family: _font(family-heading);
+    font-family: _font(family-heading), serif;
     font-size: 0.7rem;
     line-height: 1em;
     font-weight: 300;
