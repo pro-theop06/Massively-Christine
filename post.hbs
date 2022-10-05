@@ -24,7 +24,7 @@ into the {body} of the default.hbs template --}}
                 {{img_url feature_image size="m"}} 600w,
                 {{img_url feature_image size="l"}} 1000w,
                 {{img_url feature_image size="xl"}} 2000w"
-                alt="{{#if feature_image_alt}}{{feature_image_alt}}{{else}}{{title}}{{/if}}"
+                alt="{{#if feature_image_alt}}{{feature_image_alt}}{{else}}{{feature_image_caption}}{{/if}}"
             />
             {{#if feature_image_caption}}
                 <figcaption>{{feature_image_caption}}</figcaption>
