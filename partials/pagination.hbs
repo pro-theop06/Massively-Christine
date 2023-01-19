@@ -4,8 +4,10 @@
         <a class="previous newer-posts" href="{{page_url prev}}">{{{t "Previous"}}}</a>
         {{else}}
         <div class="spacer"></div>
-        {{/if}}
+        {{#if next}}
         <span class="page">{{{t "Page" }}} {{page}} {{{t "of" }}} {{pages}}</span>
+        {{/if}}
+        {{/if}}
         {{#if next}}
         <a class="next older-posts" href="{{page_url next}}">{{{t "Next" }}}</a>
         {{else}}
