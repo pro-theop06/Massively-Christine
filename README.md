@@ -3,9 +3,7 @@
 This is Massively, a text-heavy, article-oriented design built around a huge background
 image and scroll effects powered by Scrollex. Originally created by [@ajlkn](https://twitter.com/ajlkn) for [HTML5 UP](https://html5up.net) and later ported to [Ghost](https://ghost.org)
 
->  **_NOTE :_** This theme fork has been made translatable and s currently only translated into [French]
-
-(https://github.com/divulgacheur/Massively/blob/main/locales/fr.json), but it can be  
+>  **_NOTE :_** This theme fork has been made [translatable](https://ghost.org/docs/themes/helpers/translate/) and is currently only translated into [French](https://github.com/divulgacheur/Massively/blob/main/locales/fr.json), but other languages can be easily added  
 
 **Demo: https://massively.ghost.io**
 
