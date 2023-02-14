@@ -48,7 +48,7 @@
 .pagination .page {
     padding: 0 20px;
     border-color: transparent !important;
-    color: #222 !important;;
+    color: #222 !important;
 }
 
 .spacer {
@@ -173,6 +173,7 @@
 
 .kg-image {
     max-width: 100%;
+    width: 100%;
 }
 
 // Content
@@ -192,10 +193,6 @@
     flex-direction: column;
     align-items: center;
     min-width: 100%;
-}
-
-.kg-image {
-    width: 100%;
 }
 
 figcaption {
@@ -296,12 +293,6 @@ figcaption {
     margin: 0 0 0 0.75em;
 }
 
-.kg-gallery-card + .kg-image-card.kg-width-wide,
-.kg-gallery-card + .kg-gallery-card,
-.kg-image-card.kg-width-wide + .kg-gallery-card,
-.kg-image-card.kg-width-wide + .kg-image-card.kg-width-wide {
-    margin: -2.25em 0 3em;
-}
 
 .kg-bookmark-card {
     width: 100%;
